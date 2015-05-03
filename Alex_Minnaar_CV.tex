@@ -1,0 +1,142 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} 
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\name{Alex Minnaar} % Your name
+\address{41 Mathersfield Dr. \\ Toronto, Ontario, Canada} % Your address
+\address{cell: (647) 629-0280 \\ home: (416) 488-0895 \\ minnaaralex@gmail.com \\ alexminnaar.com} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf University College London} \hfill {\em November 2012} \\ 
+MSc in Computational Statistics \& Machine Learning \\
+London, United Kingdom
+
+{\bf Queen's University} \hfill {\em June 2011} \\ 
+BSc in Mathematics \& Engineering - Control and Computing stream \\
+Kingston, Ontario, Canada
+
+{\bf Upper Canada College} \hfill {\em June 2007} \\ 
+Ontario Diploma \& International Baccalaureate Diploma \\
+Toronto, Ontario, Canada\\ 
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{VerticalScope, Inc}{March 2014 - Present}{Software Engineer}{Toronto, Ontario, Canada}
+\item Part of the Data Science team. Building large-scale, real-time natural language processing applications with unstructured social media data.
+\item Implementing NLP/machine learning concepts such as named entity recognition/disambiguation, topic modeling, sentiment analysis, and recommender systems.
+\item Using the Scala programming language with technologies such as Spark, Kafka, Elasticsearch and Cassandra.
+\end{rSubsection}
+
+
+\begin{rSubsection}{Tucows, Inc}{February 2013 - March 2014}{Data Scientist}{Toronto, Ontario, Canada}
+\item Implemented statistical analysis to gain insight on customer churn.
+\item Developed several machine learning applications involving classification, clustering, collaborative filtering and sentiment analysis.
+\item Setup company's first Hadoop cluster using Amazon ec2 and Cloudera.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Advanced Algos, Inc}{October 2012 - December 2012}{Data Analyst Intern}{Toronto, Ontario, Canada}
+\item Performed data analysis tasks on CME and EBS data sets from Spot and FX markets.
+\item Wrote C++ programs to search for specific occurrences in large data sets.
+
+\end{rSubsection}
+
+%------------------------------------------------
+
+
+
+\end{rSection}
+
+\newpage
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research and Project Experience}
+
+\begin{rSubsection}{MSc Thesis}{University College London}{New Methods for Identifying Small Mean-reverting Portfolios}{}
+\item Studying the portfolio selection problem of extracting optimally mean-reverting portfolios from multi-
+variate time-series datasets while constraining the number of assets in the portfolio. Included comparison of approximation techniques such as greedy search, semi-definite relaxation, and genetic algorithms.
+Presents novel on-line learning algorithm that dynamically adjusts portfolio weights to achieve optimal
+mean-reversion.
+\end{rSubsection}
+
+\begin{rSubsection}{Mathematical Programming and Research Methods}{University College London}{}{}
+\item Implementation of machine learning techniques in Matlab and Mathematica. These include gradient
+descent, linear/polynomial regression, kernel methods, perceptron algorithm, k-means clustering, PCA,
+and classification via SVMs.
+\end{rSubsection}
+
+\begin{rSubsection}{Heritage Health Prize Kaggle Competition}{}{}{}
+\item Competition in which contestants are given a training set of hospital patient data to build algorithms
+that predict the number of days a group of patients will spend in hospital for a given test set. Best
+results came from tree-based algorithms and boosting. Scored in top 75 out of 1300+ teams.
+\end{rSubsection}
+
+\begin{rSubsection}{Undergraduate Thesis}{Queen's University}{Stochastic Systems with Data Rate Constraints}{}
+\item A dynamical system was studied in which two noisy sensors are connected to a controller through a
+noiseless finite capacity channel. A stability result was presented in the case where the eigenvalues of
+the system matrix are real and distinct. A policy that achieves stochastic stability is also presented
+and is shown to asymptotically achieve the minimum average rate for the communication channel. \\
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths and Achievements}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages & C++, Java/Scala, Python, Javascript/JQuery.  \\ \\
+Statistical Software & Matlab, R.\\ \\
+Databases & MySQL, Elasticsearch, Cassandra. \\ \\
+Hadoop \& Big Data & MapReduce programming, Hive, Mahout, Spark. \\ \\
+Awards & Ontario Scholar.\\ & Upper Canada College Prefect.\\ & Euclid Math Contest Certificate of Distinction.\\ \\
+Certificates & Hadoop Fundamentals Certificate, \textit{BigDataUniversity.com}.\\
+& C++ for Financial Engineering, \textit{Baruch College}.\\ \\
+Personal Projects & alexminnaar.com (blog), github.com/alexminnaar (open source projects). \\ \\
+Interests & Brazilian Jiu-Jitsu, Music, Movies, Books.
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
